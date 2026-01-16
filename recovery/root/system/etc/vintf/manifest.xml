@@ -33,6 +33,14 @@
         </interface>
         <fqname>@1.0::ISensorManager/default</fqname>
     </hal>
+    <hal format="hidl" optional="true">
+        <name>android.hardware.gatekeeper</name>
+        <version>1.0</version>
+        <interface>
+            <name>IGatekeeper</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
     <hal format="hidl">
         <name>android.hidl.manager</name>
         <transport>hwbinder</transport>
