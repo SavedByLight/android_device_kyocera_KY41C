@@ -4,6 +4,8 @@ on early-init
     mkdir /mnt/vendor
     mkdir /mnt/vendor/persist 0771 system system
     mkdir /metadata 0771 system system
+    mkdir /data/misc/keystore 0700 system system
+    restorecon_recursive /data/misc/keystore
     
 on init
     start health-hal-2-0
