@@ -21,3 +21,5 @@ PRODUCT_VENDOR_PROPERTIES += \
     ro.hardware.kmsetkey=trustonic \
     ro.hardware.gatekeeper=trustonic \
     ro.vendor.mtk_trustonic_tee_support=1
+ 
+RECOVERY_SHARED_LIBRARIES += libprotobuf-cpp-full
