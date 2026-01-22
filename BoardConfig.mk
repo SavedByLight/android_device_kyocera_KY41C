@@ -94,7 +94,7 @@ PLATFORM_VERSION := 10.0.0
 
 # Crypt/Keymaster/Keystore
 # TW_INCLUDE_CRYPTO invokes keystore2, keystore2.rc, plat_keystore2_key_contexts etc. Exclude?
-TW_INCLUDE_CRYPTO := true
+#TW_INCLUDE_CRYPTO := true
 TW_INCLUDE_FBE := true
 TW_INCLUDE_FBE_METADATA_DECRYPT := true
 TW_USE_FSCRYPT_POLICY := 1
