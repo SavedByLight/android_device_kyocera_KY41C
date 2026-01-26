@@ -1,4 +1,3 @@
-```
 ## Finding decrypt functions...
 In libkeymaster_portable.so implemented as:
 ```
@@ -13,4 +12,3 @@ A classic implementation back in 2015 used to be in ec_key.cpp:
 keymaster_error_t EcKeyFactory::CreateEmptyKey(const AuthorizationSet& hw_enforced,
                                                const AuthorizationSet& sw_enforced,
                                                UniquePtr<AsymmetricKey>* key)
-```
